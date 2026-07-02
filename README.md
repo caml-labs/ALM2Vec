@@ -1,7 +1,7 @@
 <h1 align="center">ALM2Vec: Learning Audio Embeddings for Universal Audio Retrieval with Large Audio-Language Models</h1>
 
 <p align="center">
-  📄 <strong><a href="https://arxiv.org/abs/xxxx.xxxxx">Paper</a></strong> |
+  📄 <strong><a href="https://arxiv.org/abs/2606.30682">Paper</a></strong> |
   🌐 <strong><a href="https://caml-labs.github.io/ALM2Vec">Project Page</a></strong> |
   🤗 <strong><a href="https://huggingface.co/collections/cara-ai/alm2vec">Model</a></strong>
 </p>
@@ -11,7 +11,7 @@
 ## 📢 News
 
 - **[2026-06-17]** We release the ALM2Vec codebase, project page, and Hugging Face models ([pretrain](https://huggingface.co/cara-ai/ALM2Vec-PT) / [finetune](https://huggingface.co/cara-ai/ALM2Vec-FT)).
-- **[TBD]** Paper coming soon on [arXiv](https://arxiv.org/abs/xxxx.xxxxx).
+- **[2026-07-02]** We release the ALM2Vec technical report on [arXiv](https://arxiv.org/abs/2606.30682).
 
 ---
 
@@ -90,12 +90,14 @@ print(similarity)
 If you find this work useful, please consider contributing to this repo and cite this work:
 
 ```
-@article{ALM2Vec2026,
-  title={ALM2Vec: Learning Audio Embeddings for Universal
-        Audio Retrieval with Large Audio-Language Models},
-  author={TBD},
-  journal={arXiv preprint arXiv:TBD},
-  year={2026}
+@misc{lu2026alm2veclearningaudioembeddings,
+      title={ALM2Vec: Learning Audio Embeddings for Universal Audio Retrieval with Large Audio-Language Models}, 
+      author={Fengjie Lu and Chenang Jiang and Jiarui Hai and Helin Wang and Aaron Yee},
+      year={2026},
+      eprint={2606.30682},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2606.30682}, 
 }
 ```
 
